@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/nisannmvp/databases/task01",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:SqlDatabase",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
